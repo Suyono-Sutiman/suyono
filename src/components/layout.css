@@ -14,6 +14,10 @@
   z-index: 2;
   background-color: #ffffff;
 }
+.mid {
+  background-color: #343a40;
+  color: #ffffff;
+}
 .foot {
   text-align: center;
   border-top: 1px solid #212529;
@@ -26,12 +30,68 @@
   height: 100vh;
   text-align: center;
 }
+.kontak-hero{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-top: 1rem;
+}
 span {
   color: #007bff;
 }
 .hero-img {
   border: 1px solid #212529;
   border-radius: 50%;
+}
+.icon-design{
+  font-size: 90px;
+}
+.col-design{
+  text-align: center;
+}
+.col-skill {
+  margin-bottom: 1rem;
+}
+.img-box{
+  height: 20vh;
+  background-size: cover;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
+.satu{
+  background-image: url(../images/real.png);
+}
+.dua {
+  background-image: url(../images/jjinterprice.png);
+}
+.tiga {
+  background-image: url(../images/donad.png);
+}
+.empat {
+  background-image: url(../images/foodshop.png);
+}
+.lima {
+  background-image: url(../images/coffee.png);
+}
+.text-box{
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+}
+.col-karya{
+  margin-bottom: 1rem;
+}
+.kontak{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.kontak-box{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
 @keyframes fade-in {
   0% {

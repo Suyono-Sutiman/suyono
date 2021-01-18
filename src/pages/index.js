@@ -1,17 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
+import Design from "../components/design"
+import Skill from "../components/skill"
+import { Container } from "react-bootstrap"
+import Karya from "../components/karya"
+import Kontak from "../components/kontak"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero/>
-    
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Container fluid className='mid'>
+    <Design/>
+    <Skill/>
+    <Karya/>
+    </Container>
+    <Kontak/>
   </Layout>
 )
 
