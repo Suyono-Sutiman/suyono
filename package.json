@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "suyono",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Seorang web developer serta designer dan juga seorang wibu",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Suyono <yonoraphael@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
